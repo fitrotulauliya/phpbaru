@@ -42,21 +42,18 @@
           <p>Swift</p>
         </div>
       </div>
+      
       <div class="contact-form">
-        <h3 class="section-title">Hubungi kami</h3>
-        <p>Email (Wajib Diisi)</p>
-        <input>
-        
-        
-        <p>Pesan (Wajib Diisi)</p>
-        <input> 
-        
-        <p>*(Bidang Wajib Diisi)</p>
-        <input type="submit" value="submit">
-        
-      </div>
+      <h3 class="section-title">Hubungi kami</h3>
+      <form action="welcome.php" method="post">
+        <p>First Name:<input type="text" name="firstname"></p>
+        <p>Last Name:<input type="text" name="lastname"></p>
+        <p> E-mail:<input type="text" name="email"></p>
+        <input type="submit">
+      </form>
+        </div>
     </div>
-
+        
     <div class="footer">
       <div class="footer-logo">Progate</div>
       <div class="footer-list">
