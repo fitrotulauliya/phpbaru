@@ -32,7 +32,7 @@ if ($conn -> query($sql) === TRUE) {
 $conn->close();
 ?>
 <br>
-<a href="http:/localhost/daftar.php">Data yang terdaftar</a>
+<a href="http:/localhost/index.php">Data yang terdaftar</a>
 
 </body>
-</html> 
+</html>
